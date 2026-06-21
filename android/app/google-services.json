@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "512330142881",
+    "project_id": "wedding-rsvp-c0b47",
+    "storage_bucket": "wedding-rsvp-c0b47.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:512330142881:android:de5a5e237568b8055f0ce0",
+        "android_client_info": {
+          "package_name": "com.example.wedding_rsvp"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBQGEh-swcXRdRMm4l8-5sd67uT2AGziB0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

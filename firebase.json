@@ -1,0 +1,39 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "wedding-rsvp-c0b47",
+          "appId": "1:512330142881:android:de5a5e237568b8055f0ce0",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "wedding-rsvp-c0b47",
+          "configurations": {
+            "android": "1:512330142881:android:de5a5e237568b8055f0ce0",
+            "ios": "1:512330142881:ios:ee47c53adbd7845a5f0ce0",
+            "macos": "1:512330142881:ios:ee47c53adbd7845a5f0ce0",
+            "web": "1:512330142881:web:29c27ef33f2e81e05f0ce0",
+            "windows": "1:512330142881:web:f09db9e338c60fca5f0ce0"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
